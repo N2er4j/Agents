@@ -1,0 +1,8 @@
+/.DS_Store
+/clear
+/venv
+.venv
+./.idea
+./__pycache__
+./.pytest_cache
+./.vscode

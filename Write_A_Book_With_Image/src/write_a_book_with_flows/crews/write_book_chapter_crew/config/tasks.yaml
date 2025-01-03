@@ -1,0 +1,39 @@
+research_chapter:
+  description: >
+    Research the provided chapter topic, title, and outline to gather additional content that will be helpful in writing the chapter.
+    Ensure you focus on reliable, high-quality sources of information.
+
+    Here is some additional information about the author's desired goal for the book and the chapter:\n\n {goal}
+    Here is the outline description for the chapter:\n\n {chapter_description}
+
+    When researching, consider the following key points:
+    - you need to gather enough information to write a 3,000-word chapter
+    - The chapter you are researching needs to fit in well with the rest of the chapters in the book.
+
+    Here is the outline of the entire book:\n\n
+    {book_outline}
+  expected_output: >
+    A set of additional insights and information that can be used in writing the chapter.
+  agent: researcher
+
+write_chapter:
+  description: >
+    Write a well-structured chapter based on the chapter title, goal, and outline description. 
+    Each chapter should be written in markdown and should contain around 3,000 words. Include images when the outline indicates they are needed. Use the provided image generation tool to create these images.
+
+    Here is the topic for the book: {topic}
+    Here is the title of the chapter: {chapter_title}
+    Here is the outline description for the chapter:\n\n {chapter_description}
+
+    Important notes:
+    - The chapter you are writing needs to fit in well with the rest of the chapters in the book.
+    - If the outline specifies an image, use the `generate_image` tool. Include the returned URL and description in the markdown like this: `![Image Description]({image_url})`
+    - Be descriptive in your image prompts for the `generate_image` tool. The more detail you provide, the better the generated image will be. For example, instead of "graph," try "A bar graph showing the growth of AI in education from 2020 to 2024 with clear labels and a title."
+    - If the outline suggests multiple images for a single section, generate and include them all.
+
+    Here is the outline of the entire book:\n\n
+    {book_outline}
+  expected_output: >
+    A markdown-formatted chapter of around 3,000 words that covers the provided chapter title and outline description, including images where specified in the outline.
+  agent: writer
+  

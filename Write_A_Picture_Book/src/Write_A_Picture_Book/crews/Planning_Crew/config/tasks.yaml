@@ -1,0 +1,28 @@
+define_story_outline:
+  description: >
+    Develop the title, theme, tone, and overall story structure for the book. Begin by analyzing the desired goals for the book and the intended audience (3rd graders). Create a clear and engaging storyline that includes a beginning, middle, and end.
+
+    When defining the story outline, consider the following key points:
+    Ensure the tone is consistent with the theme (e.g., adventurous, humorous).
+    Incorporate a moral or educational lesson suitable for 3rd graders.
+    Provide a logical progression of events with clear transitions between scenes.
+
+    The structure you create should serve as a foundation for character development, scene writing, and illustrations.
+
+  expected_output: >
+    A detailed story outline including a suggested title, theme, tone, and a scene-by-scene breakdown.
+  agent: Story_Outline_Agent
+
+design_characters:
+  description: >
+    Develop unique and relatable characters for the book, focusing on their personality, traits, and appearance. The characters should align with the story's theme and tone.
+    
+    When designing characters, consider the following key points:
+
+    Create diverse and inclusive characters that resonate with 3rd graders.
+    Ensure each character plays a clear role in the story's progression.
+    Provide visual style suggestions to guide the illustrator.
+
+  expected_output: >
+    A set of detailed character profiles, including their traits, roles, and visual style recommendations.
+  agent: Character_Design_Agent

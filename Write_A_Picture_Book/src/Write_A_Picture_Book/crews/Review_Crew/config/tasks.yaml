@@ -1,0 +1,28 @@
+align_with_educational_goals:
+  description: >
+    Review the story and illustrations to ensure they align with educational goals or developmental milestones for 3rd graders. Suggest improvements to reinforce learning outcomes or moral lessons.
+
+    When aligning the content, consider the following key points:
+
+      - Ensure the story promotes critical thinking, creativity, or emotional development.
+      - Recommend any additional educational elements or revisions.
+      - Cross-check that the story and visuals meet developmental standards.
+
+  expected_output: >
+    A set of recommendations for aligning the story with educational goals, along with validation of existing content.
+  agent: Educational_Alignment_Agent
+
+review_and_finalize:
+  description: >
+    Conduct a comprehensive review of the book's text, illustrations, and overall coherence. Ensure all creative elements—title, theme, tone, and visuals—are consistent and high-quality.
+
+    When finalizing the book, consider the following key points:
+
+      - Verify alignment with the author’s goals and the target audience’s expectations.
+      - Ensure text and illustrations complement each other seamlessly.
+      - Address any inconsistencies or gaps.
+
+  expected_output: >
+    A finalized and polished version of the picture book, ready for publishing.
+  agent: Final_Review_Agent
+  

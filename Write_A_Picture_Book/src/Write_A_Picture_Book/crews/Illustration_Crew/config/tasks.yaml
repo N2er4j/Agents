@@ -1,0 +1,27 @@
+draft_scene_descriptions:
+  description: >
+    Write sensory-rich and engaging scene descriptions that align with the story's tone and theme. Include key narrative elements that guide the illustrator in creating dynamic visuals.
+
+    When drafting descriptions, consider the following key points:
+
+    Ensure the scenes provide visual cues for illustrations.
+    Maintain a cohesive flow between scenes, as outlined in the story structure.
+    Use language that is vivid but accessible to 3rd graders.
+  expected_output: >
+    A set of scene descriptions, with enough detail to inspire illustrations and ensure narrative consistency.
+  agent: Scene_Description_Agent
+  
+create_illustration_concepts:
+  description: >
+    Develop initial illustration concepts for each scene, ensuring they align with the story's tone, key elements, and character profiles.
+
+    When creating illustrations, consider the following key points:
+
+      - Use the scene descriptions to visualize key moments.
+      - Ensure illustrations are colorful, engaging, and age-appropriate.
+      - Focus on visual storytelling to enhance the narrative experience for 3rd graders.
+
+  expected_output: >
+    A set of illustration drafts for each scene, with notes for refinement.
+  agent: Illustration_Agent
+  
