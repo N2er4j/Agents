@@ -19,7 +19,6 @@ langtrace.init(api_key = 'a2887f4825fa6962040dc026ba0db00c20aaa534eccca49698bf73
 api = os.environ.get("OPENAI_API_KEY")
 
 # To load gemini (this api is for free: https://makersuite.google.com/app/apikey)
-# AIzaSyAY5u3X3Vkuf0v6mwQW1Q5dPxOcyvFDzto
 google_api_key = os.environ.get("GOOGLE_API_KEY")
 print(google_api_key)
 '''
